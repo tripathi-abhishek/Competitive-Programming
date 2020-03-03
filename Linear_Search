@@ -40,3 +40,5 @@ public class Main
 		System.out.println("\n"+(ft-st));
 	}
 }
+
+// Time Complexity is O(n)
