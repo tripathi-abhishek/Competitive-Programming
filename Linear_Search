@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main
 {
-    public static void BSearch(int arr[], int key )
+    public static void LSearch(int arr[], int key )
     {
         int flag=0;
         for(int i=0;i<arr.length;i++)
@@ -35,7 +35,7 @@ public class Main
 		Main ob = new Main();
 		long st,ft;
 		st=System.nanoTime();
-		ob.BSearch(arr, key);
+		ob.LSearch(arr, key);
 		ft=System.nanoTime();
 		System.out.println("\n"+(ft-st));
 	}
