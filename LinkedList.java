@@ -53,7 +53,7 @@ public class LinkedList {
 		head = toRemove.next;
 	}
 	
-	void removeLast() 
+	void removeLast()   // this is written by me😎 
 	{
 		Node temp = head;     // temp points towards the head
 		while(temp.next.next != null)   // while next to the next of the node called 'temp' is not  null
