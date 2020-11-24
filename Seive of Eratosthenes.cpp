@@ -1,3 +1,5 @@
+// O(n.log(log n))
+
 #include <iostream>
 using namespace std;
 #include <vector>
