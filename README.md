@@ -1,7 +1,7 @@
 # Algo-DS__Practice
 ## Mathematics
 
-## Number Theory
+### Number Theory
 * PlayList: https://www.youtube.com/playlist?list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG
 * Questions 
    - https://www.spoj.com/problems/AMR11E/ - easy sieve 
@@ -28,4 +28,5 @@
    - https://www.spoj.com/problems/DIVSUM/ - pre computation or multiplication formula
    - https://www.spoj.com/problems/DIVSUM2/ - Multiplication formula
    - https://www.spoj.com/problems/MAIN74/ - find first few values and observe the pattern
-    and all the questions from CP-Algorithms
+   
+and solve all the questions from CP-Algorithms
