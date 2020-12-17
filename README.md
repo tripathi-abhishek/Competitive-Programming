@@ -1,5 +1,5 @@
-# Algo-DS__Practice
-## Mathematics
+# Competitive Programming
+### Mathematics
 
 ### Number Theory
 * PlayList: https://www.youtube.com/playlist?list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG
