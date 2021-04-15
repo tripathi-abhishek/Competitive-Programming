@@ -35,7 +35,8 @@ and solve all the questions from CP-Algorithms
 
 ## Code Template
 
-`#include <bits/stdc++.h>
+```
+#include <bits/stdc++.h>
 using namespace std;
 #define endl ("\n")
 #define pi (3.141592653589)
@@ -67,4 +68,7 @@ int32_t main()
 	return 0;
 }
 
-//-------------------------------------------------------------------------------------------------/`
+//-------------------------------------------------------------------------------------------------/
+```
+And for C++17 build and setting plus pre-compilation for faster runtime :::
+Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
