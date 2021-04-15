@@ -72,3 +72,13 @@ int32_t main()
 ```
 And for C++17 build and setting plus pre-compilation for faster runtime :::
 Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
+
+
+## Code which works in your PC but will be invisible in Online-Judge
+```
+#ifdef NameForIfDef
+	//Here you can put anything that you don't want to happen 
+	//when your code is running on an online judge but
+	//only want it to happen when running your code locally 
+#endif
+```
