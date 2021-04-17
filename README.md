@@ -84,8 +84,8 @@ Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
 ```
 
 ## Setting up default code-snippet for faster coding 
-In Sublime, Goto TOOLS->DEVELOPER->NEW SNIPPET
-Now remove ```Hello, ${1:this} is a ${2:snippet}.``` and add the following code ...
+In Sublime, Goto TOOLS->DEVELOPER->NEW SNIPPET.
+Now replace  ```Hello, ${1:this} is a ${2:snippet}.``` with the following code ...
 ```
 #define fastIO ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
 //-------------------------------------------------------------------------------------------------//
