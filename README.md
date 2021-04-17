@@ -82,3 +82,34 @@ Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
 	//only want it to happen when running your code locally 
 #endif
 ```
+
+## Setting up default code-snippet for faster coding 
+In Sublime, Goto TOOLS->DEVELOPER->NEW SNIPPET
+Now remove ```Hello, ${1:this} is a ${2:snippet}.``` and add the following code ...
+```
+#define fastIO ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
+//-------------------------------------------------------------------------------------------------//
+int32_t main()
+{
+	fastIO
+#ifdef NameForIfDef
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+
+
+	return 0;
+}
+
+//-------------------------------------------------------------------------------------------------/
+```
+Uncomment the 6th line ```<tabTrigger>hello</tabTrigger``` and replace the ```hello``` with whatever text you want to call your default text on. (say ```code or cp(in my case)```).
+Save it (ctrl+s) with “random_name.sublime-snippet”. and close.
+Now, open a new file and start typing the name of your snippet (random_name or code or cp ... whatever you named it)and then press "tab".
+
+[Imgur](https://imgur.com/OnsmxON)
+
+Follow this QnA for more read about this : https://www.quora.com/How-can-I-add-my-default-C-C++-code-in-Sublime-Text
+
+
