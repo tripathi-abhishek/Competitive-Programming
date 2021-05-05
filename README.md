@@ -195,9 +195,12 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 
 [Imgur](https://imgur.com/OnsmxON)
 
-Follow this QnA for more read about this : https://www.quora.com/How-can-I-add-my-default-C-C++-code-in-Sublime-Text
 
-Build File Setting:
+##Follow this QnA for more read about this : https://www.quora.com/How-can-I-add-my-default-C-C++-code-in-Sublime-Text
+
+
+
+#Build File Setting:
 	The name of the build file I am using is "CPP(this one is working)".
 	Below is the configuration.
 ```
@@ -213,7 +216,7 @@ Build File Setting:
 "selector":"source.cpp"
 }
 ```
-Explanation of the build file--
+##Explanation of the build file--
 	1. C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt and C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt
 		these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build file:-
 		#ifndef ONLINE_JUDGE
@@ -227,7 +230,7 @@ Explanation of the build file--
 		#endif
 		
 		
-Debugging (Creating error-file and setting up the debugging)
+#Debugging (Creating error-file and setting up the debugging)
 	add the following code in the main file of your code (the code file where you are writing the code.)
 	```
 	#ifndef ONLINE_JUDGE
