@@ -217,8 +217,8 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 }
 ```
 ## Explanation of the build file--
-	1. C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt and C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt
-		these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build 			file:-
+C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt and C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt
+these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build file:-
 		#ifndef ONLINE_JUDGE
 			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt", "r", stderr);
 			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt", "w", stdout);
@@ -231,7 +231,7 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 		
 		
 # Debugging (Creating error-file and setting up the debugging)
-	add the following code in the main file of your code (the code file where you are writing the code.)
+add the following code in the main file of your code (the code file where you are writing the code.)
 	```
 	#ifndef ONLINE_JUDGE
 		freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
