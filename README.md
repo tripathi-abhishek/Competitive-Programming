@@ -213,10 +213,27 @@ Build File Setting:
 "selector":"source.cpp"
 }
 ```
-	Explanation of the build file--
-	1. C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt
-		this indicates the input file path and you don't need to mention it in the main code file as:-
+Explanation of the build file--
+	1. C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt and C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt
+		these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build file:-
 		#ifndef ONLINE_JUDGE
-			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
+			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt", "r", stderr);
+			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt", "w", stdout);
 		#endif
-
+		or
+		#ifndef ONLINE_JUDGE
+			freopen("input.txt", "r", stderr);
+			freopen("output.txt", "w", stdout);
+		#endif
+		
+		
+Debugging (Creating error-file and setting up the debugging)
+	add the following code in the main file of your code (the code file where you are writing the code.)
+	```
+	#ifndef ONLINE_JUDGE
+		freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
+	#endif
+	```
+	### DONOT ADD THE ERROR FILE PATH IN THE BUILD FILE, IT WILL PRODUCE UNNECESSARY ERRORS. THE DEBUG FILE AND PATH WILL WORKS ABSOLUTELY FINE WHEN ONLY MENTIONED IN THE 		    CODE FILE
+	
+		
