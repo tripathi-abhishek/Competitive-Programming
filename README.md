@@ -219,15 +219,19 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 ## Explanation of the build file--
 C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt and C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt
 these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build file:-
+		```
 		#ifndef ONLINE_JUDGE
 			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt", "r", stderr);
 			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt", "w", stdout);
 		#endif
+		```
 		or
+		```
 		#ifndef ONLINE_JUDGE
 			freopen("input.txt", "r", stderr);
 			freopen("output.txt", "w", stdout);
 		#endif
+		```
 		
 		
 # Debugging (Creating error-file and setting up the debugging)
