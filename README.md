@@ -241,6 +241,11 @@ add the following code in the main file of your code (the code file where you ar
 	freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
 #endif
 ```
-### DONOT ADD THE ERROR FILE PATH IN THE BUILD FILE, IT WILL PRODUCE UNNECESSARY ERRORS. THE DEBUG FILE AND PATH WILL WORKS ABSOLUTELY FINE WHEN ONLY MENTIONED IN THE 		    CODE FILE
+this much is enough to create and include the 'error.txt' file.
+### DONOT ADD THE ERROR FILE PATH IN THE BUILD FILE, IT WILL PRODUCE UNNECESSARY ERRORS. THE DEBUG FILE AND PATH WORKS ABSOLUTELY FINE WHEN ONLY MENTIONED IN THE 		 CODE FILE
 	
 		
+# My File and File Paths
+1 Two Folders
+	1. Practice Folder (contains the cpp files and its executables)
+	2. Input-Output folder (contains 'input.txt', 'output.txt' and 'error.txt')
