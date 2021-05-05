@@ -242,6 +242,7 @@ add the following code in the main file of your code (the code file where you ar
 #endif
 ```
 this much is enough to create and include the 'error.txt' file.
+⚠⚠
 ##### DONOT ADD THE ERROR FILE PATH IN THE BUILD FILE, IT WILL PRODUCE UNNECESSARY ERRORS. THE DEBUG FILE AND PATH WORKS ABSOLUTELY FINE WHEN ONLY MENTIONED IN THE 		 CODE FILE
 	
 		
