@@ -36,39 +36,73 @@ and solve all the questions from CP-Algorithms
 ## Code Template
 
 ```
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-#define endl ("\n")
-#define pi (3.141592653589)
-#define mod 1e9+7
-#define lli long long int
-#define vi vector<lli>
+
+#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define MOD 1000000007
+#define MOD1 998244353
+#define INF 1e18
+#define nline "\n"
 #define pb push_back
+#define ppb pop_back
 #define mp make_pair
-#define Max 100005
 #define ff first
 #define ss second
-#define all(c) cc.begin(), c.end()
-#define mini(a, b, c) min(c, min(a, b))
-#define mini2(a, b, c, d) min(d, min(c, min(a, b)))
-#define rloop(i, a, n) for(int i=n-1; i>=0; i--)
-#define loop(i, a, b) for(int i=0; i<n; i++)
-#define fastIO ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-//-------------------------------------------------------------------------------------------------//
-int32_t main()
-{
-	fastIO
-#ifdef NameForIfDef
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+#define PI 3.141592653589793238462
+#define set_bits __builtin_popcountll
+#define sz(x) ((int)(x).size())
+#define all(x) (x).begin(), (x).end()
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+// typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key
+
+#ifndef ONLINE_JUDGE
+#define debug(x) cerr << #x <<" "; _print(x); cerr << endl;
+#else
+#define debug(x)
 #endif
+
+void _print(ll t) {cerr << t;}
+void _print(int t) {cerr << t;}
+void _print(string t) {cerr << t;}
+void _print(char t) {cerr << t;}
+void _print(lld t) {cerr << t;}
+void _print(double t) {cerr << t;}
+void _print(ull t) {cerr << t;}
+
+template <class T, class V> void _print(pair <T, V> p);
+template <class T> void _print(vector <T> v);
+template <class T> void _print(set <T> v);
+template <class T, class V> void _print(map <T, V> v);
+template <class T> void _print(multiset <T> v);
+template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.ff); cerr << ","; _print(p.ss); cerr << "}";}
+template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
+
+
+#define YES cout<<"YES"<<"\n"
+#define NO  cout<<"NO"<<"\n"
+//==================================================================================================================
+int main() {
+
+//------------------------//
+	fastIO
+#ifndef ONLINE_JUDGE
+	freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
+#endif
+//-----------------------//
 
 
 
 	return 0;
 }
 
-//-------------------------------------------------------------------------------------------------/
+//==================================================================================================================
 ```
 And for C++17 build and setting plus pre-compilation for faster runtime :::
 Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
@@ -87,24 +121,75 @@ Visit: https://www.youtube.com/watch?v=ynHKYjBpzBw
 In Sublime, Goto TOOLS->DEVELOPER->NEW SNIPPET.
 Now replace  ```Hello, ${1:this} is a ${2:snippet}.``` with the following code ...
 ```
-#define fastIO ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-//-------------------------------------------------------------------------------------------------//
-int32_t main()
-{
-	fastIO
-#ifdef NameForIfDef
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+#include<bits/stdc++.h>
+using namespace std;
+
+#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+#define MOD 1000000007
+#define MOD1 998244353
+#define INF 1e18
+#define nline "\n"
+#define pb push_back
+#define ppb pop_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define PI 3.141592653589793238462
+#define set_bits __builtin_popcountll
+#define sz(x) ((int)(x).size())
+#define all(x) (x).begin(), (x).end()
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+// typedef tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key
+
+#ifndef ONLINE_JUDGE
+#define debug(x) cerr << #x <<" "; _print(x); cerr << endl;
+#else
+#define debug(x)
 #endif
+
+void _print(ll t) {cerr << t;}
+void _print(int t) {cerr << t;}
+void _print(string t) {cerr << t;}
+void _print(char t) {cerr << t;}
+void _print(lld t) {cerr << t;}
+void _print(double t) {cerr << t;}
+void _print(ull t) {cerr << t;}
+
+template <class T, class V> void _print(pair <T, V> p);
+template <class T> void _print(vector <T> v);
+template <class T> void _print(set <T> v);
+template <class T, class V> void _print(map <T, V> v);
+template <class T> void _print(multiset <T> v);
+template <class T, class V> void _print(pair <T, V> p) {cerr << "{"; _print(p.ff); cerr << ","; _print(p.ss); cerr << "}";}
+template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
+
+
+#define YES cout<<"YES"<<"\n"
+#define NO  cout<<"NO"<<"\n"
+//==================================================================================================================
+int main() {
+
+//------------------------//
+	fastIO
+#ifndef ONLINE_JUDGE
+	freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
+#endif
+//-----------------------//
 
 
 
 	return 0;
 }
 
-//-------------------------------------------------------------------------------------------------/
+//==================================================================================================================
 ```
-Uncomment the 6th line ```<tabTrigger>hello</tabTrigger``` and replace the ```hello``` with whatever text you want to call your default text on. (say ```code or cp(in my case)```).
+Uncomment the 6th line ```<tabTrigger>hello</tabTrigger``` and replace the ```hello``` with whatever text you want to call your default text on (shortcut to type the snippet code). (say ```code or cp(in my case)```).
 Save it (ctrl+s) with “random_name.sublime-snippet”. and close.
 Now, open a new file and start typing the name of your snippet (random_name or code or cp ... whatever you named it)and then press "tab".
 
@@ -112,4 +197,26 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 
 Follow this QnA for more read about this : https://www.quora.com/How-can-I-add-my-default-C-C++-code-in-Sublime-Text
 
+Build File Setting:
+	The name of the build file I am using is "CPP(this one is working)".
+	Below is the configuration.
+```
+{
+"cmd": ["g++.exe",
+ "-std=c++17", "${file}",
+  "-o",
+   "${file_base_name}.exe",
+    "&&" ,
+     "${file_base_name}.exe<C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt>C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.cpp"
+}
+```
+	Explanation of the build file--
+	1. C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt
+		this indicates the input file path and you don't need to mention it in the main code file as:-
+		#ifndef ONLINE_JUDGE
+			freopen("C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/error.txt", "w", stderr);
+		#endif
 
