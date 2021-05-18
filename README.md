@@ -246,17 +246,22 @@ this much is enough to create and include the 'error.txt' file.
 	
 		
 # My File and File Paths
+
 1 Two Folders
+
 	1. Practice Folder (contains the cpp files and its executables)
 	2. Input-Output folder (contains 'input.txt', 'output.txt' and 'error.txt')
 	
+	
 # Registering the Sublime Text 3 (for free + no virus + using hex code)
+
 Follow this: https://gist.github.com/JerryLokjianming/71dac05f27f8c96ad1c8941b88030451
 
 Tips:
+
 1 Use "Go to" to navigate to any offset (eg: type 0x8545, press enter). This will highlight the hex-code and just start writing the new one (dont need to click, already selected).
 2. Use "Save as" to save the new exe-file(with new hex code), save it somewhere else (eg. Desktop).
 3. Do not forget to take backup of the original "sublime_text.exe" file.
-4. Replace the original exe file with the new one(rename it to the original exe file name---> sublime_text).
-5. Now whenever you open it, you might see a warning as windows doesnt recognise this as trusted, so just right click on the new "exe-file" and in "General" tab, look at the bottom (in Attributes), just click on "Unblock" and you will be good to go.
-6. Been using it for a while, all features work perfectly as before. NO HINDERANCE EXPERIENCED. FOOLPROOF. SAFE. NO VIRUS. COMPILER WORKS. BUILD FILE WORKS. SNIPPET WORKS. PACKAGE CONTROL WORKS. THEME WORKS. ALL FEATURES WORKING.
+5. Replace the original exe file with the new one(rename it to the original exe file name---> sublime_text).
+6. Now whenever you open it, you might see a warning as windows doesnt recognise this as trusted, so just right click on the new "exe-file" and in "General" tab, look at the bottom (in Attributes), just click on "Unblock" and you will be good to go.
+7. Been using it for a while, all features work perfectly as before. NO HINDERANCE EXPERIENCED. FOOLPROOF. SAFE. NO VIRUS. COMPILER WORKS. BUILD FILE WORKS. SNIPPET WORKS. PACKAGE CONTROL WORKS. THEME WORKS. ALL FEATURES WORKING.
