@@ -265,3 +265,7 @@ this much is enough to create and include the 'error.txt' file.
 	4. Replace the original exe file with the new one(rename it to the original exe file name---> sublime_text).
 	5. Now whenever you open it, you might see a warning as windows doesnt recognise this as trusted, so just right click on the new "exe-file" and in "General" tab, look at the bottom (in Attributes), just click on "Unblock" and you will be good to go.
 	6. Been using it for a while, all features work perfectly as before. NO HINDERANCE EXPERIENCED. FOOLPROOF. SAFE. NO VIRUS. COMPILER WORKS. BUILD FILE WORKS. SNIPPET WORKS. PACKAGE CONTROL WORKS. THEME WORKS. ALL FEATURES WORKING.
+
+
+# How to edit built-in snippets in Sublime Text
+- https://hritikchaudhary.medium.com/how-to-edit-built-in-snippets-in-sublime-text-quick-guide-super-easy-method-cfc059622d47
