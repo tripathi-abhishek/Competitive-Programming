@@ -269,3 +269,16 @@ this much is enough to create and include the 'error.txt' file.
 
 # How to edit built-in snippets in Sublime Text
 - https://hritikchaudhary.medium.com/how-to-edit-built-in-snippets-in-sublime-text-quick-guide-super-easy-method-cfc059622d47
+
+# Error (Sublime text3:ERROR(internal error in mingw32_gt_pch_use_address, at config/i386/host-mingw32.c:190: MapViewOfFileEx: Attempt to access invalid address.))
+```
+
+This problem is due to #include<bits/stdc++.h> comment this line and include iostream then i see problem is gone.
+If u have precompiled stdc++.h then u have stdc++.h.gch file in this path C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits . 
+So to solve this problem: 
+1. delete stdc++.h.gch file and go to command prompt.
+2. cd C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits (press Enter)
+3. g++ -std=c++17 stdc++.h (press Enter)
+4. Restart PC
+
+```
