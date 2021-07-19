@@ -278,7 +278,7 @@ If u have precompiled stdc++.h then u have stdc++.h.gch file in this path C:\Min
 So to solve this problem: 
 1. delete stdc++.h.gch file and go to command prompt.
 2. cd C:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits (press Enter)
-3. g++ -std=c++17 stdc++.h (press Enter)
+3. g++ -std=c++17 -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 stdc++.h (press Enter)
 4. Restart PC
 
 ```
