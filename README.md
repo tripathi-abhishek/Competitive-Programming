@@ -252,6 +252,19 @@ this much is enough to create and include the 'error.txt' file.
 	1. Practice Folder (contains the cpp files and its executables)
 	2. Input-Output folder (contains 'input.txt', 'output.txt' and 'error.txt')
 	
+# Sublime Layout
+
+- Create three new files as shown below and make sure all of them are in the same folder.
+	1. file.cpp: The file for writing the code.
+	2. inputf.in: The file where we will be giving the input.
+	3. outputf.out: The file where the output will be displayed.
+
+- Now, perform the following steps:
+
+	1. Select View > Layout > Columns : 3. This will create three columns in the workspace. Move the three files into three columns.
+	2. Select View > Groups > Max Columns : 2.
+	3. Select the build system we just created from Tools > Build System > CP.
+	
 	
 # Registering the Sublime Text 3 (for free + no virus + using hex code)
 
