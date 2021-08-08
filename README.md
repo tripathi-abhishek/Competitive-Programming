@@ -304,3 +304,4 @@ compilation terminated.
 ```
 
 - Solution : There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
+- Read this : Solution blog[https://codeforces.com/blog/entry/61610]
