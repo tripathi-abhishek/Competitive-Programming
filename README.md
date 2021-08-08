@@ -280,10 +280,10 @@ this much is enough to create and include the 'error.txt' file.
 	6. Been using it for a while, all features work perfectly as before. NO HINDERANCE EXPERIENCED. FOOLPROOF. SAFE. NO VIRUS. COMPILER WORKS. BUILD FILE WORKS. SNIPPET WORKS. PACKAGE CONTROL WORKS. THEME WORKS. ALL FEATURES WORKING.
 
 
-# How to edit built-in snippets in Sublime Text
+## How to edit built-in snippets in Sublime Text
 - https://hritikchaudhary.medium.com/how-to-edit-built-in-snippets-in-sublime-text-quick-guide-super-easy-method-cfc059622d47
 
-# Error (Sublime text3:ERROR(internal error in mingw32_gt_pch_use_address, at config/i386/host-mingw32.c:190: MapViewOfFileEx: Attempt to access invalid address.))
+## Error (Sublime text3:ERROR(internal error in mingw32_gt_pch_use_address, at config/i386/host-mingw32.c:190: MapViewOfFileEx: Attempt to access invalid address.))
 ```
 
 This problem is due to #include<bits/stdc++.h> comment this line and include iostream then i see problem is gone.
@@ -296,7 +296,7 @@ So to solve this problem:
 
 ```
 
-# c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\ext\pb_ds\hash_policy.hpp:610:78: fatal error: ext/pb_ds/detail/resize_policy/hash_standard_resize_policy_imp.hpp: No such file or directory
+## c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\ext\pb_ds\hash_policy.hpp:610:78: fatal error: ext/pb_ds/detail/resize_policy/hash_standard_resize_policy_imp.hpp: No such file or directory
 compilation terminated.
 
 There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
