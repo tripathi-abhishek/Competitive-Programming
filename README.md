@@ -296,7 +296,11 @@ So to solve this problem:
 
 ```
 
-## c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\ext\pb_ds\hash_policy.hpp:610:78: fatal error: ext/pb_ds/detail/resize_policy/hash_standard_resize_policy_imp.hpp: No such file or directory
-compilation terminated.
+## Error:
 
-There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
+```
+c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\ext\pb_ds\hash_policy.hpp:610:78: fatal error: ext/pb_ds/detail/resize_policy/hash_standard_resize_policy_imp.hpp: No such file or directory
+compilation terminated.
+```
+
+- Solution : There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
