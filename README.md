@@ -305,6 +305,5 @@ compilation terminated.
 -- Solution
 - In the path
 	`\MinGW\lib\gcc\mingw32\6.3.0\include\c++\ext\pb_ds\detail\resize_policy`
-- A file named `hash_standard_resize_policy_imp.hpp` is incorrectly named as `hash_standard_resize_policy_imp.hpp0000644`.
-- Solution : There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
+- There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
 - Read this : Solution blog[https://codeforces.com/blog/entry/61610]
