@@ -296,12 +296,15 @@ So to solve this problem:
 
 ```
 
-## Error:
+## Error (Policy Based Data Structure setting):
 
 ```
 c:\mingw\lib\gcc\mingw32\5.3.0\include\c++\ext\pb_ds\hash_policy.hpp:610:78: fatal error: ext/pb_ds/detail/resize_policy/hash_standard_resize_policy_imp.hpp: No such file or directory
 compilation terminated.
 ```
-
+-- Solution
+- In the path
+	`\MinGW\lib\gcc\mingw32\6.3.0\include\c++\ext\pb_ds\detail\resize_policy`
+- A file named `hash_standard_resize_policy_imp.hpp` is incorrectly named as `hash_standard_resize_policy_imp.hpp0000644`.
 - Solution : There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
 - Read this : Solution blog[https://codeforces.com/blog/entry/61610]
