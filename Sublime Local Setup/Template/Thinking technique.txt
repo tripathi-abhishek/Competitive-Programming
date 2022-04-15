@@ -1,0 +1,49 @@
+If input array is sorted then perform
+	- Binary search
+	- Two pointers
+
+If asked for all permutations / subsets then perform
+	- Backtracking
+
+If given a tree then perform
+	- DFS
+	- BFS
+
+If given a graph then perform
+	- DFS
+	- BFS
+
+If given a linked list then perform
+	- Two pointers
+
+If recursion is banned then perform
+	- Stack.
+
+If must solve in - place then perform
+	- Swap corresponding values
+	- Store one or more different values in the same pointer
+
+If asked for maximum / minumum subarray / subset / options then perform
+	- Dynamic programming
+
+If asked for top / least K items then perform
+	- Heap
+
+If asked for common strings then perform
+	- Map
+	- Trie
+
+Else perform :
+	- Map / Set for O(1) time & O(n) space
+	- Sort input for O(nlogn) time and O(1) space
+
+
+=====================================================================================================================
+								+++Techniques to solve DP problems+++
+
+	https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+
+
+
+
+=====================================================================================================================
