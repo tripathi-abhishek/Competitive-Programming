@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+//const int N = 10000001 , uncomment and change the value of N here
+#define SIEVE
+int primes[N];
+vector<int> pr; //all the primes will be saved here
+void sieve()
+{
+	for (int i = 2; i < N; ++i)
+	{
+		if (primes[i] == 0)
+		{
+			pr.pb(i);
+			for (int j = i * i; j < N; j+=i)
+			{
+				primes[j] = 1;
+			}
+		}
+		primes[i] ^= 1;
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sieve</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
