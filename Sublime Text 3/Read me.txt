@@ -5,4 +5,4 @@
 
 PATH : C >Users >ABHISHEK >roaming> appdata> Sublime Text 3
 
-Sublime Text 3 has to be replaced.
+Sublime Text 3 folder at the above location has to be replaced with this (github folder) so that you can have the same settings in your new setup as well.
