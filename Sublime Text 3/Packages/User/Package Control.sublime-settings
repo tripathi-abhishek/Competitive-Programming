@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CUDA C++",
+		"Git",
+		"LockTab",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"Sublimall",
+		"Sublime Input",
+		"SublimeAStyleFormatter",
+	],
+	"repositories":
+	[
+	],
+}

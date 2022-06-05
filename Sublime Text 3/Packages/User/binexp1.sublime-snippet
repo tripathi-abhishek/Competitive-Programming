@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+
+// calculates the binary expo of 'a' and 'b' modulus 'm'
+// it is used to calculate a^b when a and b are very large; returns only 'mod' value
+long long int binexp1(long long int a, long long int b, long long int m) 
+{
+	long long int result = 1;
+	while (b > 0) 
+	{
+		if (b & 1) 
+		{
+			result = (result  * 1LL * a) % m;
+		}
+		a = (a * 1LL * a) % m;
+		b >>= 1;
+	}
+	return result;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>binexp1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

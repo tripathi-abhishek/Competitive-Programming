@@ -1,0 +1,6 @@
+This folder is the user configuration which contains all the files and packages installed in your Sublime Text.
+After you have reinstalled or moved to a new PC and you want to install sublime with this same setting, just replace the files at the below address.
+
+PATH : C >Users >ABHISHEK >roaming> appdata> Sublime Text 3
+
+Sublime Text 3 has to be replaced.

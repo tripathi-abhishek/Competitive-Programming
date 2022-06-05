@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+#include "bits/stdc++.h"
+using namespace std;
+#define nline "\n"
+#define mod 1000000007
+#define mod1 998244353
+typedef long long ll;
+#define pb push_back
+
+#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+
+//info to remember
+//=> int: (—10 ^ 9 to + 10 ^ 9) or (-2 ^ 31 to + 2 ^ 31 - 1). 
+//=> long long int: (—10 ^ 18 to + 10 ^ 18) or (-2 ^ 63 to 2 ^ 63– 1).
+//=> there is no difference between int* a and int *a. Both are completely same to the compiler.
+//snippets: sieve, cp, custom_hash, normal, forv, fori, forj, lcm.
+//STL: __gcd(a, b), binexp1, inverse_multiplicative, 
+
+int main() 
+{
+
+	fastIO
+
+	
+	
+	return 0;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>normal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

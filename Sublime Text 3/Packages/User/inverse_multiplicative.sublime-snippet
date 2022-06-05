@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+
+
+long long int binexp1(long long int a, long long int b, long long int m) 
+{
+	long long int result = 1;
+	while (b > 0) 
+	{
+		if (b & 1) 
+		{
+			result = (result  * 1LL * a) % m;
+		}
+		a = (a * 1LL * a) % m;
+		b >>= 1;
+	}
+	return result;
+}
+
+// this finds the multiplicative inverse of 'x' but 'm' compulsarily has to be an integer
+
+long long int inverse(long long int x, long long int m)
+{
+	return binexp1(x, m-2, m);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inverse_multiplicative</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
