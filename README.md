@@ -276,3 +276,21 @@ compilation terminated.
 	`\MinGW\lib\gcc\mingw32\6.3.0\include\c++\ext\pb_ds\detail\resize_policy`
 - There is a file named "hash_standard_resize_policy_imp.hpp0000644" in my case. I had success when renamed it to "hash_standard_resize_policy_imp.hpp"
 - Read this : Solution blog[https://codeforces.com/blog/entry/61610]
+
+
+## Take input from console in Sublime Text
+-- Tools -> Build System -> New Build System
+```
+{
+    "cmd": ["g++.exe", "-std=c++14", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+    "shell": true,
+    "selector": "source.c++"
+}
+```
+- Save it in : C:\Users\ABHISHEK\AppData\Roaming\Sublime Text 3\Packages\User   AS   cpp_inpt_from_keyboard.sublime-build.
+- Change the current build system(temporarily) to cpp_inpt_from_keyboard by going to Tools -> Build System -> cpp_inpt_from_keyboard.
+- Type the code and test, a new console should pop-up.
+- Video: https://www.youtube.com/watch?v=5wQSwOxhpnM
+
+
+
