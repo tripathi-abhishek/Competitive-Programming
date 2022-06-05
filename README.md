@@ -287,8 +287,8 @@ compilation terminated.
     "selector": "source.c++"
 }
 ```
-- Save it in : C:\Users\ABHISHEK\AppData\Roaming\Sublime Text 3\Packages\User   AS   cpp_inpt_from_keyboard.sublime-build.
-- Change the current build system(temporarily) to cpp_inpt_from_keyboard by going to Tools -> Build System -> cpp_inpt_from_keyboard.
+- Save it in : `C:\Users\ABHISHEK\AppData\Roaming\Sublime Text 3\Packages\User`   AS   `cpp_inpt_from_keyboard.sublime-build`.
+- Change the current build system(temporarily) to `cpp_inpt_from_keyboard` by going to Tools -> Build System -> `cpp_inpt_from_keyboard`.
 - Type the code and test, a new console should pop-up.
 - Video: https://www.youtube.com/watch?v=5wQSwOxhpnM
 
