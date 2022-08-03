@@ -202,7 +202,10 @@ or
 #endif
 ```
 		
-		
+#  FORMATTING THE CODE ON SAVE
+- Install SublimeAStyleFormatter package from package control, then go to Preferences -> Browse Packages -> open `SublimeAStyleFormatter` folder and then open `SublimeAStyleFormatter.sublime-settings` and then change `autoformat_on_save` to `true`.
+
+
 # Debugging (Creating error-file and setting up the debugging)
 add the following code in the main file of your code (the code file where you are writing the code.)
 ```
