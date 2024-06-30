@@ -185,6 +185,26 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 "selector":"source.cpp"
 }
 ```
+#(ALERNATE BUILD FILE : JUNE, 2024, I'M USING THIS RIGHT NOW)Build File Setting:
+	The name of the build file I am using is "CPP (June, 2024) - wih flags".
+```
+{
+"cmd": ["g++.exe",
+ "-std=c++17", "${file}",
+ "-Wall",
+ "-Wextra",
+ "-Wshadow",
+ "-O2",
+  "-o",
+   "${file_base_name}.exe",
+    "&&",
+     "${file_base_name}.exe<C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt>C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.cpp"
+}
+```
+
 ## Explanation of the build file--
 ```C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/input.txt``` and ```C:/Users/ABHISHEK/Desktop/CP/Input-Output-Files/output.txt```
 these indicate the input file / output file path and you should never mention them as follows in the main code file as it has already been added in the build file:-
