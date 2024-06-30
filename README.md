@@ -169,7 +169,7 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 
 
 
-#Build File Setting:
+## Build File Setting:
 	The name of the build file I am using is "CPP(this one is working)".
 	Below is the configuration.
 ```
@@ -185,7 +185,7 @@ Now, open a new file and start typing the name of your snippet (random_name or c
 "selector":"source.cpp"
 }
 ```
-#(ALERNATE BUILD FILE : JUNE, 2024, I'M USING THIS RIGHT NOW)Build File Setting:
+## (ALERNATE BUILD FILE : JUNE, 2024, I'M USING THIS RIGHT NOW)Build File Setting:
 	The name of the build file I am using is "CPP (June, 2024) - wih flags".
 ```
 {
