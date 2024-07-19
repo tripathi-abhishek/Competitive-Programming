@@ -316,4 +316,32 @@ compilation terminated.
 - Video: https://www.youtube.com/watch?v=5wQSwOxhpnM
 
 
+## For code formatting, use "SublimeAStyleFormatter".
+- Download it from packages of Sublime.
+- Important thing is how to use the setting of this formatter for suitable and clear formatting.
+
+```
+{
+    "options_default": {
+        "style": "google",
+        "indent-switches": true,
+        "pad-oper": true,
+        "pad-header": true,
+        "unpad-paren": true,
+        "align-pointer": "type",
+        "indent-preproc-block": true,
+        "convert-tabs": true,
+        "style": "allman"
+    },
+    "use_editorconfig": false,
+    "format_on_save": true,
+    "format_selection": true
+}
+
+```
+
+- You will have 2 options; 'Settings : Default' & 'Settings : User', click on -> 'Settings : User' -> add the lines above or edit the required lines and make it like this.
+
+
+
 
